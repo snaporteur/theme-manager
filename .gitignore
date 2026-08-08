@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# Artefacts de build PyInstaller / Inno Setup
+build/
+dist/
+dist_installer/
+*.spec
+
+# Environnements virtuels
+.venv/
+venv/
+
+# Config utilisateur (vit dans %APPDATA%, jamais dans le repo)
+config.json
+*.log
+
+# Éditeurs
+.vscode/
+.idea/

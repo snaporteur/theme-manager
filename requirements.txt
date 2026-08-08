@@ -1,0 +1,4 @@
+pystray>=0.19.5
+Pillow>=10.0.0
+astral>=3.2
+winsdk>=1.0.0b10
