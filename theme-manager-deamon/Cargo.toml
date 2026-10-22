@@ -1,0 +1,12 @@
+[package]
+name = "theme-manager-deamon"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.45"
+ron = "0.12.2"
+theme-manager-common = { path = "../theme-manager-common" }
+trayicon = "0.4.1"
+windows-sys = { version = "0.61.2", features = ["Win32_Foundation", "Win32_UI_WindowsAndMessaging"] }
+winreg = "0.56.0"
